@@ -1,0 +1,19 @@
+title Download Function
+
+Download Function -> Key Vault: Retrive certificate and password
+Download Function -> EMIS FTP: Connect
+Download Function -> EMIS FTP: List all files available
+Download Function -> Tracking Database: Calculate new files
+Download Function -> Tracking Database: Log new files
+loop For each new File
+    Download Function -> EMIS FTP: Attempt download
+    alt Success
+        Download Function -> Datalake: save file
+        Download Function -> Tracking Database: Log Success
+    else Failed
+        Download Function -> Tracking Database: Log Failure
+    end
+end
+Download Function -> EMIS FTP: Disconnect
+
+

@@ -1,0 +1,12 @@
+title Decrypt Function
+
+Datalake->Decrypt Function: Document created event
+Decrypt Function -> Key Value: Retrive decryption certificate
+Decrypt Function -> Decrypt Function: Decrypt File
+alt Success
+    Decrypt Function -> Datalake: save file
+    Decrypt Function -> Tracking Database: Log Success
+else Failed
+    Decrypt Function -> Tracking Database: Log Failure
+end
+
