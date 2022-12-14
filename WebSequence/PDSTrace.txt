@@ -1,0 +1,14 @@
+title National Opt out check
+
+ADF->DataStorage: Identify New Patients \n Or Patients with Changed Demo.
+ADF->ADF: Generate CSV File
+ADF->Data Lake:Store File
+Data Lake->PDS Upload:Trigger upload
+PDS Upload->MPT(MESH):Submit File
+MPT(MESH)->MPT(MESH): Process file
+loop wait
+    Returns Processor->MPT(MESH): Check for return File
+end
+Returns Processor->Returns Processor:Consolodate Files
+Returns Processor->Data Lake: Store file
+Data Lake->ADF: Process return file in to patient records
