@@ -7,4 +7,4 @@ categories: LDHS Test
 
 This is a test post:
 
-{% drawio path="../_drawings/test.drawio" page_number=0 height=500 %}
+![Hello Alt Text](../_drawings/test.drawio.svg "Hello")
