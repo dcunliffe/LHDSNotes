@@ -7,4 +7,4 @@ categories: LDHS Test
 
 This is a test post:
 
-![Hello Alt Text](../_drawings/test.drawio.svg "Hello")
+![Hello Alt Text](_drawings/test.drawio.svg "Hello")
