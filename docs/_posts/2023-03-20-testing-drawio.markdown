@@ -9,7 +9,7 @@ mermaid: true
 This is a test post:
 
 ## Test image:
-![Alt text](LHDSNotes/drawings/test.drawio.svg)
+![Alt text](/LHDSNotes/drawings/test.drawio.svg)
 
 
 ## Test Mermaid:
