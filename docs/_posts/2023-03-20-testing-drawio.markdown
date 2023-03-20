@@ -16,7 +16,7 @@ This is a test post:
 
 <div class="mermaid">
 sequenceDiagram
-    Datalake->>+Decrypt Function: Document created event
-    Decrypt Function->>-Key Value: Retrieve decryption certificate
+    Data Lake->>+Decrypt Function: Document created event
+    Decrypt Function->>-Key Vault: Retrieve decryption certificate
 </div>
 
