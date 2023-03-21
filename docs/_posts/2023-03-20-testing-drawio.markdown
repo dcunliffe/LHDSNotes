@@ -11,6 +11,11 @@ This is a test post:
 ## Test image:
 ![Alt text](/drawings/test.drawio.svg)
 
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+
 
 ## Test Mermaid:
 
@@ -33,3 +38,4 @@ pie
     "World": 25
     "England": 25
 ```
+
