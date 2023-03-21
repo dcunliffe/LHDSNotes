@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dcunliffe.github.io/LHDSNotes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dcunliffe.github.io/LHDSNotes/" rel="alternate" type="text/html" /><updated>2023-03-21T14:45:05+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/feed.xml</id><title type="html">London Health Data Service - Documentation Site</title><subtitle>Welcome to the London Data Service Documentation Site, here you will find technical documentation  relating to the London Data Service. </subtitle><entry><title type="html">Test Drawio</title><link href="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html" rel="alternate" type="text/html" title="Test Drawio" /><published>2023-03-20T16:30:00+00:00</published><updated>2023-03-20T16:30:00+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio</id><content type="html" xml:base="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html">&lt;p&gt;This is a test post:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dcunliffe.github.io/LHDSNotes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dcunliffe.github.io/LHDSNotes/" rel="alternate" type="text/html" /><updated>2023-03-21T14:59:11+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/feed.xml</id><title type="html">London Health Data Service - Documentation Site</title><subtitle>Welcome to the London Data Service Documentation Site, here you will find technical documentation  relating to the London Data Service. </subtitle><entry><title type="html">Test Drawio</title><link href="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html" rel="alternate" type="text/html" title="Test Drawio" /><published>2023-03-20T16:30:00+00:00</published><updated>2023-03-20T16:30:00+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio</id><content type="html" xml:base="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html">&lt;p&gt;This is a test post:&lt;/p&gt;
 
 &lt;h2 id=&quot;test-image&quot;&gt;Test image:&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/LHDSNotes/drawings/test.drawio.svg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
@@ -7,13 +7,13 @@
 
 &lt;h2 id=&quot;test-mermaid&quot;&gt;Test Mermaid:&lt;/h2&gt;
 
-&lt;div class=&quot;mermaid&quot;&gt;
+&lt;div class=&quot;Xmermaid&quot;&gt;
 sequenceDiagram
     Data Lake-&amp;gt;&amp;gt;+Decrypt Function: Document created event
     Decrypt Function-&amp;gt;&amp;gt;-Key Vault: Retrieve decryption certificate
 &lt;/div&gt;
 
-&lt;div class=&quot;mermaid&quot;&gt;
+&lt;div class=&quot;Xmermaid&quot;&gt;
     pie
         &quot;Hello&quot;: 50
         &quot;World&quot;: 25
