@@ -18,16 +18,21 @@ This is a test post:
 
 
 ## Test Mermaid:
-
 <div class="mermaid">
-sequenceDiagram
-    Data Lake->>+Decrypt Function: Document created event
-    Decrypt Function->>-Key Vault: Retrieve decryption certificate
+gantt 
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
 </div>
 
 <div class="mermaid">
-pie title HelloWorld
-    "Hello": 50
-    "World": 25
-    "England": 25
+pie title Pets adopted by volunteers 
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
 </div>
