@@ -9,7 +9,7 @@ mermaid: true
 This is a test post:
 
 ## Test image:
-![Alt text](/drawings/test.drawio.svg)
+![Alt text]({{site.baseurl}}/drawings/test.drawio.svg)
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
