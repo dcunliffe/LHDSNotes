@@ -39,6 +39,7 @@ jobs:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         with:                                # Some relative inputs of your action
           token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: 'docs'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
