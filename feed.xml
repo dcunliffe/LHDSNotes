@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dcunliffe.github.io/LHDS/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dcunliffe.github.io/LHDS/" rel="alternate" type="text/html" /><updated>2023-03-21T14:09:16+00:00</updated><id>https://dcunliffe.github.io/LHDS/feed.xml</id><title type="html">London Health Data Service - Documentation Site</title><subtitle>Welcome to the London Data Service Documentation Site, here you will find technical documentation  relating to the London Data Service. </subtitle><entry><title type="html">Test Drawio</title><link href="https://dcunliffe.github.io/LHDS/ldhs/test/2023/03/20/testing-drawio.html" rel="alternate" type="text/html" title="Test Drawio" /><published>2023-03-20T16:30:00+00:00</published><updated>2023-03-20T16:30:00+00:00</updated><id>https://dcunliffe.github.io/LHDS/ldhs/test/2023/03/20/testing-drawio</id><content type="html" xml:base="https://dcunliffe.github.io/LHDS/ldhs/test/2023/03/20/testing-drawio.html">&lt;p&gt;This is a test post:&lt;/p&gt;
+
+&lt;h2 id=&quot;test-image&quot;&gt;Test image:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/drawings/test.drawio.svg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;test-mermaid&quot;&gt;Test Mermaid:&lt;/h2&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+sequenceDiagram
+    Data Lake-&amp;gt;&amp;gt;+Decrypt Function: Document created event
+    Decrypt Function-&amp;gt;&amp;gt;-Key Vault: Retrieve decryption certificate
+&lt;/div&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+    pie
+        &quot;Hello&quot;: 50
+        &quot;World&quot;: 25
+        &quot;England&quot;: 25
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoicGllXG5cIkhlbGxvXCI6IDUwXG5cIldvcmxkXCI6IDI1XG5cIkVuZ2xhbmRcIjogMjUiLCJtZXJtYWlkIjpudWxsfQ&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="LDHS" /><category term="Test" /><summary type="html">This is a test post:</summary></entry><entry><title type="html">Welcome to the London HDS Documentation Site</title><link href="https://dcunliffe.github.io/LHDS/ldhs/update/2023/03/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to the London HDS Documentation Site" /><published>2023-03-20T16:03:24+00:00</published><updated>2023-03-20T16:03:24+00:00</updated><id>https://dcunliffe.github.io/LHDS/ldhs/update/2023/03/20/welcome-to-jekyll</id><content type="html" xml:base="https://dcunliffe.github.io/LHDS/ldhs/update/2023/03/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="LDHS" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
