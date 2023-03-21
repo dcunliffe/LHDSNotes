@@ -19,13 +19,13 @@ This is a test post:
 
 ## Test Mermaid:
 
-<div class="mermaid">
+<div class="Xmermaid">
 sequenceDiagram
     Data Lake->>+Decrypt Function: Document created event
     Decrypt Function->>-Key Vault: Retrieve decryption certificate
 </div>
 
-<div class="mermaid">
+<div class="Xmermaid">
     pie
         "Hello": 50
         "World": 25
