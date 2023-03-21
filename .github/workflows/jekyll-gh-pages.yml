@@ -32,6 +32,7 @@ jobs:
     - name: Run with dest path
       uses: helaili/jekyll-action@v2
       with:
+        jekyll_src: ./docs
         target_branch: gh-pages
         target_path: /
         keep_history: true
