@@ -25,15 +25,11 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/LHDSNotes/assets/main.css">
 <link type="application/atom+xml" rel="alternate" href="https://dcunliffe.github.io/LHDSNotes/feed.xml" title="London Health Data Service - Documentation Site">
-    <script type="text/javascript" src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+    <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
 </script>
-<script>
-$(document).ready(function() {
-    mermaid.initialize({
-        theme: 'forest'
-    });
-});
-</script>
+
   
 </head>
 
@@ -76,18 +72,23 @@ $(document).ready(function() {
 <p>/drawings/test.drawio.svg</p>
 
 <h2 id="test-mermaid">Test Mermaid:</h2>
-
 <div class="mermaid">
-sequenceDiagram
-    Data Lake-&gt;&gt;+Decrypt Function: Document created event
-    Decrypt Function-&gt;&gt;-Key Vault: Retrieve decryption certificate
+gantt 
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
 </div>
 
 <div class="mermaid">
-pie title HelloWorld
-    "Hello": 50
-    "World": 25
-    "England": 25
+pie title Pets adopted by volunteers 
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
 </div>
 
   </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dcunliffe.github.io/LHDSNotes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dcunliffe.github.io/LHDSNotes/" rel="alternate" type="text/html" /><updated>2023-03-21T15:57:28+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/feed.xml</id><title type="html">London Health Data Service - Documentation Site</title><subtitle>Welcome to the London Data Service Documentation Site, here you will find technical documentation  relating to the London Data Service. </subtitle><entry><title type="html">Test Drawio</title><link href="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html" rel="alternate" type="text/html" title="Test Drawio" /><published>2023-03-20T16:30:00+00:00</published><updated>2023-03-20T16:30:00+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio</id><content type="html" xml:base="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html">&lt;p&gt;This is a test post:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dcunliffe.github.io/LHDSNotes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dcunliffe.github.io/LHDSNotes/" rel="alternate" type="text/html" /><updated>2023-03-21T16:31:18+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/feed.xml</id><title type="html">London Health Data Service - Documentation Site</title><subtitle>Welcome to the London Data Service Documentation Site, here you will find technical documentation  relating to the London Data Service. </subtitle><entry><title type="html">Test Drawio</title><link href="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html" rel="alternate" type="text/html" title="Test Drawio" /><published>2023-03-20T16:30:00+00:00</published><updated>2023-03-20T16:30:00+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio</id><content type="html" xml:base="https://dcunliffe.github.io/LHDSNotes/ldhs/test/2023/03/20/testing-drawio.html">&lt;p&gt;This is a test post:&lt;/p&gt;
 
 &lt;h2 id=&quot;test-image&quot;&gt;Test image:&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/LHDSNotes/drawings/test.drawio.svg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
@@ -6,18 +6,23 @@
 &lt;p&gt;/drawings/test.drawio.svg&lt;/p&gt;
 
 &lt;h2 id=&quot;test-mermaid&quot;&gt;Test Mermaid:&lt;/h2&gt;
-
 &lt;div class=&quot;mermaid&quot;&gt;
-sequenceDiagram
-    Data Lake-&amp;gt;&amp;gt;+Decrypt Function: Document created event
-    Decrypt Function-&amp;gt;&amp;gt;-Key Vault: Retrieve decryption certificate
+gantt 
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
 &lt;/div&gt;
 
 &lt;div class=&quot;mermaid&quot;&gt;
-pie title HelloWorld
-    &quot;Hello&quot;: 50
-    &quot;World&quot;: 25
-    &quot;England&quot;: 25
+pie title Pets adopted by volunteers 
+    &quot;Dogs&quot; : 386
+    &quot;Cats&quot; : 85
+    &quot;Rats&quot; : 15
 &lt;/div&gt;</content><author><name></name></author><category term="LDHS" /><category term="Test" /><summary type="html">This is a test post:</summary></entry><entry><title type="html">Welcome to the London HDS Documentation Site</title><link href="https://dcunliffe.github.io/LHDSNotes/ldhs/update/2023/03/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to the London HDS Documentation Site" /><published>2023-03-20T16:03:24+00:00</published><updated>2023-03-20T16:03:24+00:00</updated><id>https://dcunliffe.github.io/LHDSNotes/ldhs/update/2023/03/20/welcome-to-jekyll</id><content type="html" xml:base="https://dcunliffe.github.io/LHDSNotes/ldhs/update/2023/03/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
