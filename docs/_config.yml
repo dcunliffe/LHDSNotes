@@ -23,7 +23,7 @@ email: david.cunliffe2@nhs.net
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the London Data Service Documentation Site, here you will find technical documentation 
   relating to the London Data Service. 
-baseurl: "LHDSNotes" # the subpath of your site, e.g. /blog
+baseurl: "/LHDSNotes" # the subpath of your site, e.g. /blog
 url: "https://dcunliffe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LondonHDS
 github_username:  LondonHDS
@@ -32,6 +32,7 @@ github_username:  LondonHDS
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
 
 defaults:
   - scope: 

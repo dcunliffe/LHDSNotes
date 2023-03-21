@@ -20,3 +20,9 @@ sequenceDiagram
     Decrypt Function->>-Key Vault: Retrieve decryption certificate
 </div>
 
+```mermaid!
+pie
+    "Hello": 50
+    "World": 25
+    "England": 25
+```
