@@ -33,7 +33,7 @@ sequenceDiagram
 </div>
 
 ```mermaid!
-pie
+pie title HelloWorld
     "Hello": 50
     "World": 25
     "England": 25
