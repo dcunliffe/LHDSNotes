@@ -26,16 +26,8 @@ sequenceDiagram
 </div>
 
 <div class="mermaid">
-    pie title HelloWorld
-        "Hello": 50
-        "World": 25
-        "England": 25
-</div>
-
-```mermaid!
 pie title HelloWorld
     "Hello": 50
     "World": 25
     "England": 25
-```
-
+</div>
